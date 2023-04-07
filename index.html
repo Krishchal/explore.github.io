@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en"> 
+  <head>
+    <!-- required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap project</title>
+
+    <!-- bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+  <body>
+    
+
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(104, 24, 216);">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" width="130px" height="50px" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Book Now</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Top Packages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Pokhara 5 days Holiday</a></li>
+                  <li><a class="dropdown-item" href="#">Everest Arial View</a></li>
+                  <li><a class="dropdown-item" href="#">Mustang trip</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">More trips</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact us</a>
+              </li>
+             
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- slider -->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/image3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/image1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/image2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="container-fluid">
+        <!-- tagline -->
+        <div class="row">
+            <div class="col-12">
+                <h3 class="display-6 text-center mt-5 mb-4">We are here to make your every moment special <br>
+                    Live your life never before </h3>
+            </div>
+        </div>
+
+        <!-- feature with icon -->
+        <div class="row justify-content-evenly pt-3 pd-3">  
+          
+          <div class="col-md-3 text-center">
+            <h1><i class="bi bi-airplane-fill text-success"></i></h1>
+            <h5>topic</h5>
+            <p>here are feature here are feature here are feature here are feature
+              here are feature here are  here are feature here are
+            </p>
+          </div>
+
+          <div class="col-md-3 text-center">
+            <h1><i class="bi bi-bus-front-fill text-danger"></i></h1>
+            <h5>topic</h5>
+            <p>here are feature here are feature here are feature here are feature
+              here are feature here are  here are feature here are
+            </p>
+          </div>
+
+          <div class="col-md-3 text-center">
+            <h1><i class="bi bi-cloud-minus-fill text-primary"></i></h1>
+            <h5>topic</h5>
+            <p>here are feature here are feature here are feature here are feature
+              here are feature here are  here are feature here are
+            </p>
+          </div>
+          
+        </div>
+                <!-- line -->
+                <hr id="line-shadow">
+
+                <!-- popular events -->
+                <div class="row">
+                  <div class="col-md-3 pb-2">
+                    <img src="images/imgpara.jpg" class="img-fluid" alt="" >
+                  </div>
+                  <div class="col-md-3 pb-2">
+                    <img src="images/imgmustang.jpg "  class="img-fluid" alt="">
+                    
+                  </div>
+                  <div class="col-md-3 pb-2">
+                    <img src="images/imgheli.jpg" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-md-3 pb-2">
+                    <img src="images/lumbini.jpg" class="img-fluid" alt="">
+                  </div>
+                </div>
+
+                <div class="row" class="mt-8">
+                  <button type="button" class="btn btn-outline-info" href="index.html">Best Packages >></button>
+                </div>
+
+                <!-- Register Now and book my trip -->
+                  <div class="row justify-content-evenly pt-3 pb-5" style="background-color: #f1f1f1;">
+                    <div class="col-md-5 mt-5">
+                      <h3 class="mb-3">Book my trip now</h3>
+                      <form>
+                        <div class="mb-3">
+                          <label for="name" class="form-label">Full Name</label>
+                          <input type="text" class="form-control" id="name" >
+                        </div>
+
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                                            
+                        <button type="submit" class="btn btn-primary">Check in</button>
+                      </form>
+                    </div>
+
+                    <div class="col-md-5 mt-5" >
+                      <h3 class="mb-3">Visit Offline</h3>
+                      <p>
+                        Newbaneshwor, Kathmandu <br>
+                        <i class="bi bi-telephone"></i> 917-234-434
+                          
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13649.795776539691!2d85.31836474602001!3d27.692921834103014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb199a06c2eaf9%3A0xc5670a9173e161de!2sNew%20Baneshwor%2C%20Kathmandu%2044600!5e0!3m2!1sen!2snp!4v1677327617924!5m2!1sen!2snp" 
+                        style="width: 100%;" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- footer section -->
+                  <div class="row justify-content-evenly bg-dark text-white pt-2 pb-5">
+                    <div class="col-md-3 pt-4">
+                      <h5 class="pb-2">Explore</h5>
+                      <p>
+                        The best travel planner of Nepal <br>
+                        We will make your every moment special  <br>
+                        Thankyou for visiting us.
+                      </p>
+                    </div>
+                    <div class="col-md-3 pt-4">
+                      <h5>Pages</h5>
+                      <p>
+                        <a href="#" class="link-light text-decoration-none">Home</a> <br>
+                        <a href=""></a>About us<br>
+                        <a href=""></a>Top packages<br>
+                        <a href=""></a>Payment method<br>
+                      </p>
+                    </div>
+                    <div class="col-md-3 pt-4">
+                      <h5 class="pb-2">Follow us</h5>
+                      <p>
+                        <i class="bi bi-facebook"></i>  <a href="#" class="link-light text-decoration-none">Facebook</a> <br>
+                        <i class="bi bi-twitter"></i> <a href="#" class="link-light text-decoration-none">Twitter</a> <br>
+                        <i class="bi bi-instagram"></i>  <a href="#" class="link-light text-decoration-none">Instagram</a> <br>
+                    </div>
+                  </div>
+
+                  <!-- copyright -->
+                  <div class="row bg-secondary text-white text-center p-2">
+                    <div class="col-12">
+                      <p>
+                        Copyright 2023 by Krishchal Regmi. All Rights Reserved.
+                      </p>
+                    </div>
+                  </div>
+
+                <!-- container end -->
+
+      </div>
+
+
+    <!-- bootstrap bundle with popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+.navbar-dark {
+    --bs-navbar-color: rgb(255 255 255) !important;
+    font-weight: 400;
+}
+
+#line-shadow{
+    box-shadow: 0px 0px 5px 0.2px black;
+}
